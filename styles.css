@@ -528,3 +528,49 @@ main button {
     width: 100%;
 }
 
+/* Search styles*/
+.search header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #F2F2F2;
+    padding: 10px;
+}
+
+.search main {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.search-category {
+  border-bottom: 0.5px solid;
+}
+
+.search-category a {
+color: #666;
+}
+
+.search .find {
+  background: url('images/search.png');
+  width: 58px;
+  height: 28px;
+  margin: -10px;
+  border: 0
+}
+
+.search input[type=search] {
+  width: 597px;
+  height: 20px;
+  position: relative;
+  top: -10px;
+  padding-bottom: 4px;
+}
+
+.google-header {
+  margin-right: 10px;
+}
