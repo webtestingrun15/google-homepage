@@ -504,7 +504,7 @@ main {
 
 main button {
     margin-top: 20px;
-    padding: 2px;
+    padding: 1px 6px;
     border: solid 1px #D8D8D8;
     background: #F1F1F1;
     font-weight: bold;
@@ -573,4 +573,8 @@ color: #666;
 
 .google-header {
   margin-right: 10px;
+}
+
+img {
+  pointer-events: none;
 }
